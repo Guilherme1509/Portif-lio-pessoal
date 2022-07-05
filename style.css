@@ -1,0 +1,414 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Heebo";
+}
+p a{
+    font-weight: bold;
+    color: #000;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: end;
+    max-width: 1152px;
+    margin:  auto ;
+    margin-right: 40px;
+}
+
+nav a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 23px;
+}
+
+#Sobre-mim {
+    width: 860px;
+    margin: 175px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Sobre-mim img{
+    border-radius: 50%;
+    transform: rotate(90deg);
+    width: 200px;
+    height: 200pxS;
+} 
+
+#Sobre-mim p{
+    width: 497px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#Sobre-mim h1{
+    font-size: 44px ;
+    font-weight: bold ;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+#Sobre-mim div button{
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background: palegoldenrod;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+}
+
+#Meus-projetos{ 
+    padding: 24px;
+    background: grey;
+    margin-top: 70px;   
+}
+
+#Meus-projetos h2{
+    font-size: 28px;
+    color: white;
+
+}
+
+#Meus-projetos section{
+    width: 860px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: justify;
+}
+
+.Container-projetos div div {
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;    
+    background-image: url("C:\Users\notebook\Downloads\image.jpg");    
+    
+}
+
+.Container-projetos{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top: 21px;
+
+}
+
+.Container-projetos div {
+    background: white;
+    width: 49%;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-radius: 8px;    
+}
+
+.Container-projetos img{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+
+}
+
+.Container-projetos div h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 14px 0 9px 23px;
+}
+
+.Container-projetos div p{
+    font-size: 16px;
+    margin-left: 23px;
+}
+
+.Container-projetos div a{
+    text-decoration: none;
+    color: black;
+}
+
+#experiencias{
+     width: 1080px;
+     margin: 55px auto;
+
+}
+
+#experiencias section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#experiencias h2{
+    margin-left: 110px;
+    font-size: 28px;
+
+} 
+
+.Container-experiencias{
+    width: 520px;
+    padding: 20 20 20 20;
+    background-color: grey;
+    margin-bottom: 37px;
+    border-radius: 48px;
+    color: white;
+    text-align: justify;
+}
+
+.Container-experiencias img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin:10px 0 0 10px;
+}
+
+.Container-experiencias h3{
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-align: top;
+}
+
+.Container-experiencias p{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}    
+
+.Container-experiencias h6{
+    margin-left: 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+
+.Container-experiencias ul{
+    margin-bottom: 30px;
+    margin-bottom: 40px;
+
+}
+
+#skils-container{
+    width: 100%;
+    
+}
+
+#skils-container h2{
+    font-size: 26px;
+    margin-bottom: 6px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+
+#skils-container div img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+#skils-container div{
+    text-align: center;
+    width: 100%;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#skils-container div img + img{
+    margin-left: 20px;
+
+}
+
+footer{
+    width: 856px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 31px;
+}
+
+footer img{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 45px;
+}
+
+.git{
+    width: 60px;
+}
+
+@media (max-width:400px) {
+    nav{
+        width: 100%;
+    }
+
+    nav a{
+        font-size: 15px;
+    }
+
+    #Sobre-mim{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        margin-top: 34px;
+    }
+
+    #Sobre-mim div h1{
+        font-size: 32px;
+        margin-bottom: 44px;
+        text-align: center;
+        line-height: 40px;
+
+
+    }
+
+    #Sobre-mim div p{
+        font-size: 16px;
+        text-align: center;
+        width: 328px;
+        line-height: 26px;
+
+    }
+
+    #Sobre-mim img{
+        width: 177px;
+        height: 177px;
+        margin-bottom: 36px;
+    }
+
+    #Sobre-mim div button{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+
+        
+    };
+
+    #Meus-projetos h2{
+        font-size: 22px;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    #Meus-projetos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Container-projetos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Container-projetos div{
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .Container-projetos div h3{
+        font-size: 22px;
+
+    }
+
+    .Container-projetos div p{
+        font-size: 16px;
+        max-width: 290px;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #skils-containers h2{
+         font-size: 24px;
+    }
+
+    #skils-container img, #experiencias img + img{
+        margin: 40px 30px 0px;
+    }
+
+    #skils-container div{
+        flex-wrap: wrap;
+        padding: 4px 0 34px;
+    }
+
+    #experiencias{
+        width: 100%;
+    }
+ 
+    #experiencias section{
+        flex-wrap: wrap;
+
+    }
+
+    .Container-experiencias{
+        width: 355px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Container-experiencias img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .Container-experiencias h3{
+        font-size: 24px;
+    }
+
+    .Container-experiencias p{
+        font-size: 15px;
+    }
+
+    .Container-experiencias h6{
+        font-size: 12px;
+    }
+
+    .Container-experiencias ul li{
+        font-size: 15px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
