@@ -38,9 +38,8 @@ nav a{
 
 #Sobre-mim img{
     border-radius: 50%;
-    transform: rotate(90deg);
     width: 200px;
-    height: 200pxS;
+    height: 200px;
 } 
 
 #Sobre-mim p{
@@ -400,15 +399,15 @@ footer p{
     footer{
         width: 100%;
     }
+}
 
+@media (max-width:900px){
 
+    #Meus-projetos{
+        width: auto;
+    }
 
-
-
-
-
-
-
-
-
+    #experiencias{
+        width: auto;
+    }
 }
